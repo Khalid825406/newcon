@@ -18007,7 +18007,9 @@ only screen and (min-width: 576px) and (max-width: 767px),
   .tj-header-area.header-1 {
     padding: 0px 0px 0px;
   }
-
+.copyright-text p{
+  text-align: center;
+}
   .funfact-item .tj-count .counter {
     font-size: 64px;
   }
@@ -18019,7 +18021,44 @@ only screen and (min-width: 576px) and (max-width: 767px),
   .funfact-item .tj-count {
     font-size: 64px;
   }
-
+.call-fixed {
+    padding: 14px 10px;
+    background-color: #893409;
+    color: white;
+    border-radius: 50%;
+}
+.call {
+  position: fixed;
+  left: 10px;
+  bottom: 78px;
+  z-index: 999;
+}
+.whatsapp-btn {
+  background-color: #1bd741;
+  color: white !important;
+  padding: 6px 6px;
+  text-decoration: none;
+  align-items: center;
+  display: flex;
+  gap: 10px;
+  border-radius: 10px;
+}
+.whatfixed {
+  position: fixed;
+  left: 11px;
+  bottom: 20px;
+  z-index: 999;
+}
+.footer-main{
+  width: 100%;
+}
+.whatsapp-btn .icon-what {
+  font-size: 26px;
+}
+.call-fixed svg {
+  font-size: 26px;
+  color: #fff;
+}
   .flex {
     flex-direction: column;
   }
@@ -18027,4 +18066,8 @@ only screen and (min-width: 576px) and (max-width: 767px),
   .box {
     width: 100%;
   }
+}
+.call-fixed svg {
+  font-size: 26px;
+  color: #fff;
 }
