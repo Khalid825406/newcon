@@ -18037,6 +18037,13 @@ only screen and (min-width: 576px) and (max-width: 767px),
     justify-content: center;
     margin-bottom: 10px;
   }
+  .bg-main{
+    height: 70vh;
+  }
+  .miancon {
+    position: absolute;
+    bottom: 0px;
+}
   .boxwe1 {
     width: 50%;
   }
@@ -18101,7 +18108,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
     font-size: 64px;
   }
 .call-fixed {
-    padding: 14px 10px;
+    padding: 14px 11px;
     background-color: #893409;
     color: white;
     border-radius: 50%;
@@ -18109,7 +18116,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
 .call {
   position: fixed;
   left: 13px;
-  bottom: 78px;
+  bottom: 87px;
   z-index: 999;
 }
 
