@@ -17975,8 +17975,87 @@ only screen and (min-width: 576px) and (max-width: 767px),
   height: 670px;
   object-fit: cover;
 }
-
+.conwirf{
+  position: relative;
+  width: 50%;
+}
+.miancon {
+  position: absolute;
+  bottom: -87px;
+}
+.bg-main{
+  background-image: url(../new-images/314726.jpg);
+  width: 100%;
+  height: 90vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: 100px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+.bg-main::before{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 1;
+}
+.fless{
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+.boxwe{
+  width: 33%;
+  z-index: 1;
+  text-align: center;
+}
+.boxwe1 p{
+  font-size: 18px;
+  color: #fff;
+}
+.boxwe1 span{
+  font-size: 60px;
+  color: #fff;
+}
+.boxwebor{
+  border-right: 1px solid #fff;
+}
+.sdd{
+  z-index: 1;
+}
 @media only screen and (max-width: 600px) {
+  .boxwe{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  .boxwe1 {
+    width: 50%;
+  }
+  .new-red{
+    border-right: 1px solid #fff !important;
+  }
+  .boxwebor{
+    border-right: none;
+  }
+  .fless{
+    display: block;
+    z-index: 1;
+  }
+  .conwirf{
+    width: 100%;
+  }
+  .mandn{
+    display: block;
+  }
   .site-logo .logo img {
     width: 50%;
   }
@@ -18029,14 +18108,15 @@ only screen and (min-width: 576px) and (max-width: 767px),
 }
 .call {
   position: fixed;
-  left: 10px;
+  left: 13px;
   bottom: 78px;
   z-index: 999;
 }
+
 .whatsapp-btn {
   background-color: #1bd741;
   color: white !important;
-  padding: 6px 6px;
+  padding: 9px 9px;
   text-decoration: none;
   align-items: center;
   display: flex;

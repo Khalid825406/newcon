@@ -1377,3 +1377,56 @@
 		$(".tj-nice-select").niceSelect();
 	}
 })(jQuery);
+
+function animateCounter(counter, target, suffix) {
+	let count = 0;
+	let speed = 50; // Animation speed
+
+	let updateCount = () => {
+		let increment = target / speed;
+		count += increment;
+
+		if (count < target) {
+			counter.innerText = Math.ceil(count) + suffix;
+			setTimeout(updateCount, 20);
+		} else {
+			counter.innerText = target + suffix;
+		}
+	};
+
+	counter.innerText = '0' + suffix; // Initialize counter
+	updateCount();
+}
+
+function startCountersWhenVisible() {
+	let counters = document.querySelectorAll('.boxwe1 span');
+
+	let observer = new IntersectionObserver(entries => {
+		entries.forEach(entry => {
+			if (entry.isIntersecting) {
+				let counter = entry.target;
+				let text = counter.innerText;
+				let target, suffix;
+
+				if (text.includes('%')) {
+					target = parseInt(text.replace('%', ''));
+					suffix = '%';
+				} else if (text.includes('+')) {
+					target = parseInt(text.replace('+', ''));
+					suffix = '+';
+				} else {
+					target = parseInt(text);
+					suffix = '';
+				}
+
+				animateCounter(counter, target, suffix);
+				observer.unobserve(counter); // Stop observing after animation starts
+			}
+		});
+	}, { threshold: 0.5 }); // Trigger when 50% visible
+
+	counters.forEach(counter => observer.observe(counter));
+}
+
+window.onload = startCountersWhenVisible;
+
