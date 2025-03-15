@@ -2583,7 +2583,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
   height: 3px;
   width: 35px;
   display: block;
-  background: var(--tj-color-common-white);
+  background: #000000;
   cursor: pointer;
   -webkit-transition: all 0.3s ease-in-out 0s;
   transition: all 0.3s ease-in-out 0s;
