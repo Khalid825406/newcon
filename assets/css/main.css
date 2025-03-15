@@ -1363,13 +1363,13 @@ only screen and (min-width: 576px) and (max-width: 767px),
   box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.06);
   opacity: 1;
   visibility: visible;
-  background-color: var(--tj-color-theme-dark);
+  background-color: #ffffff;
   padding: 0px 50px;
   display: block;
 }
 
 .tj-header-area.sticky .header-wrapper {
-  background-color: var(--tj-color-theme-dark);
+  background-color: #ffffff;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px),
@@ -1508,7 +1508,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
 .mainmenu ul>li>a {
   position: relative;
   font-size: 17px;
-  color: var(--tj-color-common-white);
+  color: #000000;
   display: block;
   padding: 32px 0;
   font-weight: var(--tj-fw-regular);
@@ -17966,7 +17966,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
   left: 0;
   width: 100%;
   height: 99%;
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: rgba(0, 0, 0, 0.1);
   z-index: 1;
 }
 
