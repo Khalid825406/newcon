@@ -1,49 +1,25 @@
-/*!
-* jQuery meanMenu v2.0.8
-* @Copyright (C) 2012-2014 Chris Wharton @ MeanThemes (https://github.com/meanthemes/meanMenu)
-*
-*/
-/*
-* This program is free software: you can redistribute it and/or modify
-* it under the terms of the GNU General Public License as published by
-* the Free Software Foundation, either version 3 of the License, or
-* (at your option) any later version.
-*
-* THIS SOFTWARE AND DOCUMENTATION IS PROVIDED "AS IS," AND COPYRIGHT
-* HOLDERS MAKE NO REPRESENTATIONS OR WARRANTIES, EXPRESS OR IMPLIED,
-* INCLUDING BUT NOT LIMITED TO, WARRANTIES OF MERCHANTABILITY OR
-* FITNESS FOR ANY PARTICULAR PURPOSE OR THAT THE USE OF THE SOFTWARE
-* OR DOCUMENTATION WILL NOT INFRINGE ANY THIRD PARTY PATENTS,
-* COPYRIGHTS, TRADEMARKS OR OTHER RIGHTS.COPYRIGHT HOLDERS WILL NOT
-* BE LIABLE FOR ANY DIRECT, INDIRECT, SPECIAL OR CONSEQUENTIAL
-* DAMAGES ARISING OUT OF ANY USE OF THE SOFTWARE OR DOCUMENTATION.
-*
-* You should have received a copy of the GNU General Public License
-* along with this program. If not, see <http://gnu.org/licenses/>.
-*
-* Find more information at http://www.meanthemes.com/plugins/meanmenu/
-*
-*/
+
+
 (function ($) {
 	"use strict";
 		$.fn.meanmenu = function (options) {
 				var defaults = {
-						meanMenuTarget: jQuery(this), // Target the current HTML markup you wish to replace
-						meanMenuContainer: 'body', // Choose where meanmenu will be placed within the HTML
-						meanMenuClose: "X", // single character you want to represent the close menu button
-						meanMenuCloseSize: "18px", // set font size of close button
-						meanMenuOpen: "<span /><span /><span />", // text/markup you want when menu is closed
-						meanRevealPosition: "right", // left right or center positions
-						meanRevealPositionDistance: "0", // Tweak the position of the menu
-						meanRevealColour: "", // override CSS colours for the reveal background
-						meanScreenWidth: "480", // set the screen width you want meanmenu to kick in at
-						meanNavPush: "", // set a height here in px, em or % if you want to budge your layout now the navigation is missing.
-						meanShowChildren: true, // true to show children in the menu, false to hide them
-						meanExpandableChildren: true, // true to allow expand/collapse children
-						meanRemoveAttrs: false, // true to remove classes and IDs, false to keep them
-						onePage: false, // set to true for one page sites
-						meanDisplay: "block", // override display method for table cell based layouts e.g. table-cell
-						removeElements: "" // set to hide page elements
+						meanMenuTarget: jQuery(this),
+						meanMenuContainer: 'body', 
+						meanMenuClose: "X",
+						meanMenuCloseSize: "18px", 
+						meanMenuOpen: "<span /><span /><span />", 
+						meanRevealPosition: "right", 
+						meanRevealPositionDistance: "0", 
+						meanRevealColour: "", 
+						meanScreenWidth: "480", 
+						meanNavPush: "", 
+						meanShowChildren: true, 
+						meanExpandableChildren: true,
+						meanRemoveAttrs: false, 
+						onePage: false, 
+						meanDisplay: "block", 
+						removeElements: "" 
 				};
 				options = $.extend(defaults, options);
 

@@ -15013,9 +15013,7 @@ START: Theme Faq CSS
 }
 
 .faq-wrapper {
-  display: -webkit-box;
   display: -ms-flexbox;
-  display: flex;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   -webkit-box-align: start;
@@ -15031,25 +15029,20 @@ START: Theme Faq CSS
 }
 
 .faq-wrapper .faq-left-content {
-  max-width: 360px;
+  text-align: center;
+  margin-bottom: 20px;
   width: 100%;
 }
 
 .faq-wrapper .tj-faq {
-  max-width: 775px;
   width: 100%;
   border: 1px solid var(--tj-color-border-1);
   padding: 45px 30px 25px;
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
-  .faq-wrapper .faq-left-content {
-    max-width: 335px;
-  }
 
-  .faq-wrapper .tj-faq {
-    max-width: 730px;
-  }
+
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
