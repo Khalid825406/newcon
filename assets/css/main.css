@@ -3304,7 +3304,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
 }
 
 .subscribe-content-area .subscribe-title .title {
-  font-size: 88px;
+  font-size: 64px;
   color: var(--tj-color-common-white);
   margin-bottom: 0;
   line-height: 1;
@@ -3409,6 +3409,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
 }
 
 .subscribe_form .form_input {
+  overflow: hidden;
   position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -3426,7 +3427,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
 .subscribe_form .form_input input:not([type=submit]):not([type=radio]):not([type=checkbox]):not([type=search]),
 .subscribe_form .form_input input[type=email] {
   width: 100%;
-  padding: 19px 135px 19px 15px;
+  padding: 15px 135px 15px 15px;
   color: var(--tj-color-common-white);
   background: var(--tj-color-theme-dark);
   border: none;
@@ -8152,7 +8153,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
 
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
   .service-details-area .deails-group-images img {
-    max-width: 350px;
+    max-width: 543px;
   }
 }
 
@@ -10234,7 +10235,9 @@ only screen and (min-width: 576px) and (max-width: 767px),
   align-items: center;
   margin-bottom: 55px;
 }
-
+.newme img{
+  width: 100%;
+}
 .project-details-cta .deails-group-images .project-images img {
   max-width: 412px;
   width: 100%;
@@ -10242,7 +10245,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
 
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
   .project-details-cta .deails-group-images .project-images img {
-    max-width: 353px;
+    max-width: 543px;
   }
 }
 
@@ -11924,7 +11927,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
 
 .contact-form-one {
   background-color: var(--tj-color-common-white);
-  padding: 40px 40px 50px;
+  padding: 20px 28px 20px;
 }
 
 .contact-form-one .title {
@@ -12018,7 +12021,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
 }
 
 .contact-form-one .form-input textarea {
-  min-height: 178px;
+  min-height: 120px;
   resize: none;
 }
 
@@ -17929,12 +17932,16 @@ only screen and (min-width: 576px) and (max-width: 767px),
 
 .content {
   position: relative;
+  margin-bottom: -7px;
 }
 
 .content video {
   width: 100%;
 }
-
+#service{
+  border: 1px solid ;
+  padding: 15px 10px;
+}
 .contevtc {
   position: absolute;
   top: 50%;
@@ -17962,7 +17969,11 @@ only screen and (min-width: 576px) and (max-width: 767px),
   background-color: rgba(0, 0, 0, 0.1);
   z-index: 1;
 }
-
+.circle-contact{
+  position: absolute;
+  bottom: 30px;
+  right: 50px;
+}
 .about123 {
   background-size: cover;
   height: 670px;

@@ -57,6 +57,14 @@
     position: relative;
     transition-property: transform;
 }
+.swiper-slide12{
+    flex-shrink: 0;
+    width: 33% !important;
+    height: 100%;
+    position: relative;
+    transition-property: transform;
+    margin-bottom: 20px;
+}
 .swiper-slide-invisible-blank {
     visibility: hidden;
 }
