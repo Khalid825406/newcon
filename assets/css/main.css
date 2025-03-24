@@ -1331,9 +1331,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
 }
 
 .tj-header-area.header-absolute .header-wrapper {
-  -webkit-backdrop-filter: blur(40px);
-  backdrop-filter: blur(40px);
-  background: rgba(255, 255, 255, 0.1);
+  background: #ffffff;
 }
 
 .tj-header-area.header-duplicate {
@@ -11950,7 +11948,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
 .contact-form-one .form-input input[type=email],
 .contact-form-one .form-input input[type=text] {
   width: 100%;
-  padding: 16px 20px;
+  padding: 8px 12px;
   font-size: 15px;
   background: transparent;
   text-transform: uppercase;
@@ -17933,14 +17931,20 @@ only screen and (min-width: 576px) and (max-width: 767px),
 .content {
   position: relative;
   margin-bottom: -7px;
+  margin-top: 110px;
 }
-
+.background-video {
+  width: 100vw;  /* Full Width */
+  height: 85vh; /* Full Height */
+  object-fit: cover; /* Ensures the video covers full screen */
+  background-size: cover;
+}
 .content video {
   width: 100%;
 }
 #service{
   border: 1px solid ;
-  padding: 15px 10px;
+  padding: 9px 12px;
 }
 .contevtc {
   position: absolute;
@@ -17985,7 +17989,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
 }
 .miancon {
   position: absolute;
-  bottom: -87px;
+  bottom: 0;
 }
 .bg-main{
   background-image: url(../new-images/314726.jpg);
@@ -18202,4 +18206,12 @@ only screen and (min-width: 576px) and (max-width: 767px),
   margin-top: 100px;
   row-gap: 24px;
   margin-bottom: 100px;
+}
+
+.mainsector12{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  row-gap: 24px;
 }

@@ -176,8 +176,6 @@
                         <li><a href="">About</a></li>
                         <li><a href="">Services</a></li>
                         <li><a href="">Sector</a></li>
-                        <li><a href="">Projects</a></li>
-                        <li><a href="">FAQ</a></li>
                         <li><a href="">Blog</a></li>
                         <li><a href="">Contact</a></li>
                      </ul>
@@ -231,9 +229,7 @@
                         <li class="current-menu-ancestor"><a href="index.html">Home</a></li>
                         <li><a href="">About</a></li>
                         <li><a href="">Services</a></li>
-                        <li><a href="./sector.html">Sector</a></li>
-                        <li><a href="">Projects</a></li>
-                        <li><a href="">FAQ</a></li>
+                        <li><a href="">Sector</a></li>
                         <li><a href="">Blog</a></li>
                         <li><a href="">Contact</a></li>
                      </ul>
@@ -636,7 +632,7 @@
             <!-- end: Services Section -->
 
             <!-- start: Process Section -->
-            <section class="tj-process-section">
+            <!-- <section class="tj-process-section">
                <div class="container">
                   <div class="row">
                      <div class="col-12">
@@ -760,10 +756,101 @@
                <div class="process-sec-bg">
                   <img src="assets/images/shapes/process-bg-overly.png" alt="Shape">
                </div>
-            </section>
+            </section> -->
             <!-- end: Process Section -->
 
          
+            <!-- Sector start -->
+            <main>
+               
+               <div class="container">
+                  <div class="breadcrum12">
+                     <h1  style="font-size: 40px; text-align: center; margin: 80px 0px 40px 0px;">Our Expertise in Construction <br> Sectors</h1>
+                  </div>
+                   <div class="mainsector12">
+                       <div class="sector">
+                           <div>
+                               <img src="./assets/new-images/airport.jpg"
+                                   alt="Residential Construction">
+                           </div>
+                           <div>
+                               <h3>Airport</h3>
+                               <p>We build modern, durable, and eco-friendly homes, including apartments, villas, and
+                                   townships.</p>
+                           </div>
+
+                       </div>
+
+                       <div class=" sector">
+                           <div>
+                               <img src="./assets/new-images/healthcare.jpg"
+                                   alt="Commercial Construction">
+                           </div>
+                           <div>
+                               <h3>Healthcare</h3>
+                               <p>We develop corporate offices, shopping malls, hotels, and coworking spaces with
+                                   innovative designs.</p>
+                           </div>
+
+                       </div>
+
+                       <div class=" sector">
+                           <div>
+                               <img src="./assets/new-images/industrial.jpg"
+                                   alt="Industrial Construction">
+                           </div>
+                           <div>
+                               <h3>Industrial</h3>
+                               <p>Our expertise includes factories, warehouses, logistics centers, and large-scale
+                                   industrial plants.</p>
+                           </div>
+
+                       </div>
+
+                       <div class=" sector">
+                           <div>
+                               <img src="./assets/new-images/hospital.jpg"
+                                   alt="Infrastructure Construction">
+                           </div>
+                           <div>
+                               <h3>Hospitality </h3>
+                               <p>We build highways, bridges, metro stations, and other public infrastructure projects.
+                               </p>
+                           </div>
+
+                       </div>
+
+                       <div class=" sector">
+                           <div>
+                               <img src="./assets/new-images/office.avif"
+                                   alt="Institutional Construction">
+                           </div>
+                           <div>
+                               <h3>Office </h3>
+                               <p>We construct schools, hospitals, and government buildings with a focus on public
+                                   service efficiency.</p>
+                           </div>
+
+                       </div>
+
+                       <div class=" sector">
+                           <div>
+                               <img src="./assets/new-images/residential.jpg"
+                                   alt="Renovation & Remodeling">
+                           </div>
+                           <div>
+                               <h3>Residential </h3>
+                               <p>We offer remodeling, structural repairs, and energy-efficient upgrades for existing
+                                   buildings.</p>
+                           </div>
+
+                       </div>
+                   </div>
+
+               </div>
+           </main>
+            <!-- Sector end -->
+
 
             <!-- start: Project Section -->
             <section class="tj-project-section">
@@ -1091,13 +1178,10 @@
                               <div>
                                  <img src="./assets/new-images/cornhome07.png" alt="">
                                  <div class="miancon">
-                                    <!-- <img src="./assets/new-images/Untitled-design-90.png" alt=""> -->
+                                    <img src="./assets/new-images/hand.jpg" alt="">
                                  </div>
                               </div>    
                            </div>
-                           <!-- <div class="contact-images tj-fade-in-up-contact">
-                              <img src="assets/images/contact/contact-1.png" alt="Images">
-                           </div> -->
                         </div>
                      </div>
                      <div class="col-lg-8 conwirf tj-fade-in-left">
@@ -1123,9 +1207,25 @@
                                        <input type="email" id="emailOne" name="email" placeholder="" required />
                                     </div>
                                  </div>
+                                 
                                  <div class="col-sm-6">
                                     <div class="form-input">
                                        <label for="tel">Phone number</label>
+                                       <input type="tel" id="tel" name="tel" placeholder="" required />
+                                    </div>
+                                 </div>
+
+
+                                 <div class="col-sm-6">
+                                    <div class="form-input">
+                                       <label for="emailOne">Tittle</label>
+                                       <input type="email" id="emailOne" name="email" placeholder="" required />
+                                    </div>
+                                 </div>
+                                 
+                                 <div class="col-sm-6">
+                                    <div class="form-input">
+                                       <label for="tel">Company</label>
                                        <input type="tel" id="tel" name="tel" placeholder="" required />
                                     </div>
                                  </div>
@@ -1133,17 +1233,19 @@
                                     <div class="form-input">
                                        <label for="service">Select Service</label>
                                        <select id="service" name="service" required>
-                                          <option value="">-- Select a Service --</option>
-                                          <option value="construction">Construction</option>
-                                          <option value="renovation">Renovation</option>
-                                          <option value="architecture">Architecture Design</option>
-                                          <option value="interior">Interior Design</option>
+                                          <option value=""> Select a Service - Enquiry</option>
+                                          <option value="construction">Contracting</option>
+                                          <option value="renovation">Facility Management</option>
+                                          <option value="architecture">Man power Supplies</option>
+                                          <option value="interior">Real Estate</option>
+                                          <option value="Equipment">Rental Equipment</option>
+                                          <option value="Supplies">Genral Supplies</option>
                                        </select>
                                     </div>
                                  </div>
                                  <div class="col-12">
                                     <div class="form-input">
-                                       <label for="message">Project Details</label>
+                                       <label for="message">Enquiry</label>
                                        <textarea id="message" name="message" placeholder="Describe your project..."></textarea>
                                     </div>
                                  </div>
@@ -1172,7 +1274,7 @@
             <!-- end: Contact Section -->
 
 
-            <div class="bg-main">
+            <!-- <div class="bg-main">
                <div class="container sdd">
                  <div class="fless">
                   <div class="boxwe">
@@ -1207,7 +1309,7 @@
                   </div>
                  </div>
                </div>
-            </div>
+            </div> -->
 
             <!-- start: Blog Section -->
             <section class="tj-blog-section">
@@ -1394,8 +1496,6 @@
                               <li><a href="#">Home</a></li>
                               <li><a href="#">About</a></li>
                               <li><a href="#">Service</a></li>
-                              <li><a href="#">FAQ</a></li>
-                              <li><a href="#">Project</a></li>
                               <li><a href="#">Blog</a></li>
                            </ul>
                         </div>
