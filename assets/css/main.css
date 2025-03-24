@@ -18161,8 +18161,45 @@ only screen and (min-width: 576px) and (max-width: 767px),
   .box {
     width: 100%;
   }
+  .mainsector{
+    flex-direction: column;
+  }
+  .sector{
+    width: 100%;
+  }
 }
 .call-fixed svg {
   font-size: 26px;
   color: #fff;
+}
+.section-title {
+  text-align: center;
+  margin: 40px 0;
+  color: #004466;
+}
+.sector {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 32%;
+}
+.sector img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+.sector h3{
+  font-size: 28px;
+  margin-top: 15px;
+}
+.mainsector{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 100px;
+  row-gap: 24px;
+  margin-bottom: 100px;
 }
