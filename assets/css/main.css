@@ -18068,9 +18068,13 @@ only screen and (min-width: 576px) and (max-width: 767px),
     display: block;
   }
   .site-logo .logo img {
-    width: 50%;
+    width: 60%;
   }
-
+  .circle-contact {
+    position: absolute;
+    bottom: 0px;
+    right: 23px;
+}
   .title12 {
     color: #fff;
     font-size: 26px;
