@@ -18092,7 +18092,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
   }
 
   .content video {
-    height: 500px;
+    height: 480px;
     object-fit: cover;
   }
 
@@ -18172,11 +18172,16 @@ only screen and (min-width: 576px) and (max-width: 767px),
   .box {
     width: 100%;
   }
-  .mainsector{
+  .mainsector12{
     flex-direction: column;
   }
   .sector{
-    width: 100%;
+    width: 100% !important;
+  }
+  .content {
+    position: relative;
+    margin-bottom: -7px;
+    margin-top: 66px;
   }
 }
 .call-fixed svg {
