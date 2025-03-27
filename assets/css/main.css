@@ -17937,6 +17937,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
   height: 85vh; /* Full Height */
   object-fit: cover; /* Ensures the video covers full screen */
   background-size: cover;
+  background-position: top;
 }
 .content video {
   width: 100%;
