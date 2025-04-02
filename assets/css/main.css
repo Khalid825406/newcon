@@ -11805,9 +11805,8 @@ only screen and (min-width: 576px) and (max-width: 767px),
 START: Theme Contact CSS
 ----------------------------------------*/
 .tj-contact-section {
-  padding-top: 80px;
-  padding-bottom: 80px;
-  background-color: var(--tj-color-theme-dark);
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .tj-contact-section.contact-inner {
@@ -17938,6 +17937,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
   object-fit: cover; /* Ensures the video covers full screen */
   background-size: cover;
   background-position: top;
+  object-position: center;
 }
 .content video {
   width: 100%;
