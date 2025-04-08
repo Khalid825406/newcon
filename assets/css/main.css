@@ -1293,7 +1293,6 @@ START: Theme Header CSS
   width: 100%;
   top: 0;
   left: 0;
-  background-color: var(--tj-color-theme-dark);
   -webkit-transition: all 0.4s ease-in-out 0s;
   transition: all 0.4s ease-in-out 0s;
   z-index: 98;
@@ -1455,7 +1454,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  background-color: var(--tj-color-theme-dark);
+  background-color: #fff;
   padding: 0px 16px 0px 30px;
 }
 
@@ -7003,11 +7002,21 @@ only screen and (min-width: 576px) and (max-width: 767px) {
 START: Theme Service CSS
 ----------------------------------------*/
 .tj-service-section {
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding-top: 80px;
+  /* padding-bottom: 120px; */
   background-color: var(--tj-color-theme-bg);
 }
-
+.miancon{
+  height: 280px;
+  width: 100%;
+  margin-bottom: 10px;
+}
+.miancon img {
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-position: top;
+}
 .tj-service-section .sec-heading {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -11806,7 +11815,7 @@ START: Theme Contact CSS
 ----------------------------------------*/
 .tj-contact-section {
   padding-top: 100px;
-  padding-bottom: 100px;
+  padding-bottom: 60px;
 }
 
 .tj-contact-section.contact-inner {
@@ -11923,7 +11932,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
 
 .contact-form-one {
   background-color: var(--tj-color-common-white);
-  padding: 20px 28px 20px;
+  padding: 35px 28px 35px;
 }
 
 .contact-form-one .title {
@@ -17492,6 +17501,7 @@ START: Theme Sec Title CSS
 .sec-heading .sec-title {
   margin-bottom: 0;
   line-height: 1.1;
+  color: #df4f4f;
 }
 
 .sec-heading.style-2 .sub-title {
@@ -17987,10 +17997,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
   position: relative;
   width: 50%;
 }
-.miancon {
-  position: absolute;
-  bottom: 0;
-}
+
 .bg-main{
   background-image: url(../new-images/314726.jpg);
   width: 100%;
@@ -18201,6 +18208,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   text-align: center;
   width: 32%;
+  height: 426px;
 }
 .sector img {
   width: 100%;
@@ -18226,4 +18234,61 @@ only screen and (min-width: 576px) and (max-width: 767px),
   column-gap: 21px;
   align-items: center;
   row-gap: 24px;
+}
+
+
+.career-container {
+  max-width: 700px;
+  margin: auto;
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  margin-bottom: 80px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.career-heading {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.career-subheading {
+  text-align: center;
+  color: #555;
+  margin-bottom: 25px;
+}
+
+.career-form .form-group {
+  margin-bottom: 15px;
+}
+
+.career-form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.career-form input,
+.career-form select {
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc !important;
+  border-radius: 5px;
+}
+
+.submit-btn {
+  width: 100%;
+  padding: 12px;
+  background: linear-gradient(135deg, #cba041, #f0d78c);
+  color: #000;
+  border: none;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.submit-btn:hover {
+  background-color: darkgreen;
 }

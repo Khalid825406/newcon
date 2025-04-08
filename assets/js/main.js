@@ -1021,7 +1021,7 @@
 			spaceBetween: 30,
 			loop: true,
 			autoplay: {
-				delay: 9000,
+				delay: 3000,
 			},
 			speed: 600,
 			navigation: {
@@ -1430,3 +1430,21 @@ function startCountersWhenVisible() {
 
 window.onload = startCountersWhenVisible;
 
+
+
+function truncateTextByWords(selector, wordLimit) {
+    const elements = document.querySelectorAll(selector);
+
+    elements.forEach((element) => {
+      const fullText = element.textContent.trim();
+      const words = fullText.split(" ");
+
+      if (words.length > wordLimit) {
+        const truncated = words.slice(0, wordLimit).join(" ") + "...";
+        element.textContent = truncated;
+      }
+    });
+  }
+
+  // Apply to all <p> tags inside elements with class .desc
+  truncateTextByWords(".desc p", 15);
