@@ -7010,6 +7010,15 @@ START: Theme Service CSS
   height: 280px;
   width: 100%;
   margin-bottom: 10px;
+  position: relative;
+}
+.title124{
+  position: absolute;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    right: 0;
+    transform: translate(35%, 195%);
 }
 .miancon img {
   height: 100%;
@@ -11958,7 +11967,6 @@ only screen and (min-width: 576px) and (max-width: 767px),
   padding: 8px 12px;
   font-size: 15px;
   background: transparent;
-  text-transform: uppercase;
   border: 1px solid var(--tj-color-heading-primary);
 }
 
@@ -18244,6 +18252,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
   padding: 30px;
   border-radius: 10px;
   margin-bottom: 80px;
+  margin-top: 180px;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
