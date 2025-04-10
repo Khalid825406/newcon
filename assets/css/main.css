@@ -7007,18 +7007,21 @@ START: Theme Service CSS
   background-color: var(--tj-color-theme-bg);
 }
 .miancon{
-  height: 280px;
+  height: 350px;
   width: 100%;
-  margin-bottom: 10px;
+  margin-bottom: 24px;
   position: relative;
 }
 .title124{
   position: absolute;
-    z-index: 999;
-    top: 0;
-    left: 0;
-    right: 0;
-    transform: translate(35%, 195%);
+  z-index: 999;
+  top: 40%;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 60px;
 }
 .miancon img {
   height: 100%;
