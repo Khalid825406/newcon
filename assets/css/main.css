@@ -7022,6 +7022,7 @@ START: Theme Service CSS
   justify-content: center;
   align-items: center;
   font-size: 60px;
+  font-weight: 600;
 }
 .miancon img {
   height: 100%;
@@ -17938,7 +17939,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
 
 .call-fixed {
   padding: 16px 12px;
-  background-color: #893409;
+  background: linear-gradient(135deg, #cba041, #f0d78c);
   color: white;
   border-radius: 50%;
 }
