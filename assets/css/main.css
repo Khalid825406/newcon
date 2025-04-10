@@ -7002,12 +7002,12 @@ only screen and (min-width: 576px) and (max-width: 767px) {
 START: Theme Service CSS
 ----------------------------------------*/
 .tj-service-section {
-  padding-top: 80px;
+  padding-top: 60px;
   /* padding-bottom: 120px; */
   background-color: var(--tj-color-theme-bg);
 }
 .miancon{
-  height: 350px;
+  height: 300px;
   width: 100%;
   margin-bottom: 24px;
   position: relative;
@@ -7146,7 +7146,7 @@ START: Theme Service CSS
 
 .tj-service-section .service-pagination {
   text-align: center;
-  margin-top: 60px;
+  margin-top: 24px;
   line-height: 1;
 }
 
@@ -17480,7 +17480,7 @@ START: Theme Sec Title CSS
   margin-left: auto;
   margin-right: auto;
   width: 100%;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 }
 
 .sec-heading .sub-title {
@@ -17511,6 +17511,7 @@ START: Theme Sec Title CSS
 }
 
 .sec-heading .sec-title {
+  font-size: 40px;
   margin-bottom: 0;
   line-height: 1.1;
   color: #df4f4f;
