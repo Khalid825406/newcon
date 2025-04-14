@@ -6697,6 +6697,7 @@ only screen and (min-width: 576px) and (max-width: 767px) {
 }
 
 .circle-contact .circle-button .btn-icon {
+  transform: rotate(90deg);
   position: relative;
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
