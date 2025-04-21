@@ -254,7 +254,8 @@
               <h2 class="career-heading">Join Our Team</h2>
               <p class="career-subheading">Fill the form below to apply for a position at ABSO Construction</p>
           
-              <form id="careerForm" class="career-form">
+              <form id="careerForm" class="career-form" action="https://api.web3forms.com/submit" method="POST" enctype="multipart/form-data">
+               <input type="hidden" name="access_key" value="281d7b39-b157-4b7f-86ff-a803d4bf2eb5">  
                 <div class="form-group">
                   <label for="name">Full Name:</label>
                   <input type="text" id="name" name="name" required />
@@ -278,13 +279,36 @@
           
                 <div class="form-group">
                   <label for="resume">Upload Resume (PDF):</label>
-                  <input type="file" id="resume" name="resume" accept=".pdf" required />
+                  <input type="file" id="resume" name="resume" accept=".pdf" required  name="attachment" accept="image/jpeg,image/png"/>
                 </div>
           
                 <button type="submit" class="submit-btn">Submit Application</button>
               </form>
             </div>
           </section>
+
+          <script>
+            const form = document.getElementById('careerForm');
+          
+            form.addEventListener('submit', async function (e) {
+              e.preventDefault();
+          
+              const formData = new FormData(form);
+          
+              try {
+                const response = await fetch('https://career-form.vercel.app/apply', {
+                  method: 'POST',
+                  body: formData
+                });
+          
+                const result = await response.json();
+                alert(result.message);
+              } catch (err) {
+                alert('Error submitting form: ' + err.message);
+              }
+            });
+          </script>
+          
 
          <!-- start: Footer Area -->
          <footer class="tj-footer-area footer-1">

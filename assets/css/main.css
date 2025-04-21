@@ -6044,7 +6044,6 @@ START: Theme About CSS
 ----------------------------------------*/
 .tj-about-section {
   padding-top: 120px;
-  padding-bottom: 120px;
 }
 
 .tj-about-section .sec-heading {
@@ -6199,7 +6198,7 @@ only screen and (min-width: 1200px) and (max-width: 1399px) {
   }
 
   .about-wrapper .about-images {
-    max-width: 560px;
+    max-width: 500px;
   }
 
   .about-wrapper .about-right-content {
@@ -9263,7 +9262,7 @@ only screen and (min-width: 576px) and (max-width: 767px) {
 START: Theme Project CSS
 ----------------------------------------*/
 .tj-project-section {
-  padding-top: 120px;
+  padding-top: 50px;
   padding-bottom: 120px;
 }
 
