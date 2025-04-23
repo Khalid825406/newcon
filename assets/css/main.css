@@ -18407,3 +18407,69 @@ only screen and (min-width: 576px) and (max-width: 767px),
 }
 
 
+/* About dropdown */
+
+
+.dropdown-menu123:hover .dropdownmenumainabout123{
+  height: 92px;
+  visibility: visible;
+  opacity: 1;
+ 
+} 
+.dropdownmenumainabout123{
+  position: absolute !important;
+  top: 95px !important;
+  width: 260px;
+  height: 0px;
+  flex-direction: column;
+  background-color: #fff;
+  text-align: left !important;
+  visibility: hidden;
+  opacity: 0;
+  transition: all 0.5s;
+  overflow: hidden;
+}
+.dropdownmenumainabout123 li{
+  padding-left: 20px;
+  text-align: left !important;
+  border-bottom: 1px solid #ccc;
+  width: 100%;
+}
+.dropdownmenumainabout123 li a{
+  padding: 14px 0px !important;
+  color: #000;
+}
+
+
+/* sector dropdown */
+
+
+.dropdown-menu123:hover .dropdownmenumainSector{
+  height: 368px;
+  visibility: visible;
+  opacity: 1;
+ 
+} 
+.dropdownmenumainSector{
+  position: absolute !important;
+  top: 95px !important;
+  width: 260px;
+  height: 0px;
+  flex-direction: column;
+  background-color: #fff;
+  text-align: left !important;
+  visibility: hidden;
+  opacity: 0;
+  transition: all 0.5s;
+  overflow: hidden;
+}
+.dropdownmenumainSector li{
+  padding-left: 20px;
+  text-align: left !important;
+  border-bottom: 1px solid #ccc;
+  width: 100%;
+}
+.dropdownmenumainSector li a{
+  padding: 14px 0px !important;
+  color: #000;
+}
