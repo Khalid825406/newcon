@@ -3144,8 +3144,8 @@ START: Theme Footer CSS
 
 .footer-top-area {
   position: relative;
-  padding-top: 96px;
-  padding-bottom: 88px;
+  padding-top: 50px;
+  padding-bottom: 50px;
   border-bottom: 2px solid var(--tj-color-common-black-2);
   z-index: 2;
 }
@@ -18411,7 +18411,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
 
 
 .dropdown-menu123:hover .dropdownmenumainabout123{
-  height: 92px;
+  height: 155px;
   visibility: visible;
   opacity: 1;
  
@@ -18430,7 +18430,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
   overflow: hidden;
 }
 .dropdownmenumainabout123 li{
-  padding-left: 20px;
+  padding: 0px 20px !important;
   text-align: left !important;
   border-bottom: 1px solid #ccc;
   width: 100%;
@@ -18472,4 +18472,13 @@ only screen and (min-width: 576px) and (max-width: 767px),
 .dropdownmenumainSector li a{
   padding: 14px 0px !important;
   color: #000;
+}
+
+
+.saudi-vision{
+  display: flex;
+  justify-content: center;
+}
+.saudi-vision img{
+  width: 500px;
 }
