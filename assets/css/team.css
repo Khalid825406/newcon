@@ -1,0 +1,303 @@
+.owl-carousel .owl-nav button {
+    position: absolute;
+    top: 40%;
+    transform: translateY(-50%);
+    background: #e99c2e;
+    border: none;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 50%;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.owl-carousel .owl-nav button.owl-prev {
+    left: -26px;
+    background: linear-gradient(135deg, #cba041, #f0d78c) !important;
+    width: 40px;
+    height: 40px;
+    line-height: 36px !important;
+    border-radius: 50%;
+    box-shadow: -3px 3px 8px #ccc;
+    color: #fff;
+    font-size: 22px;
+}
+
+.owl-carousel .owl-nav button.owl-next {
+    right: -26px;
+    background: linear-gradient(135deg, #cba041, #f0d78c) !important;
+    width: 40px;
+    height: 40px;
+    line-height: 36px !important;
+    border-radius: 50%;
+    box-shadow: 3px 3px 8px #ccc;
+    color: #fff;
+    font-size: 22px;
+}
+.owl-prev span{
+    font-size: 30px;
+}
+.owl-next span{
+    font-size: 30px;
+}
+.owl-theme .owl-nav [class*=owl-]:hover {
+    background: linear-gradient(135deg, #cba041, #f0d78c) !important;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.owl-carousel .owl-dots .owl-dot {
+    background: #534c4c;
+    border-radius: 50%;
+    width: 12px;
+    height: 12px;
+    margin: 5px;
+    display: inline-block;
+}
+
+.owl-carousel .owl-dots .owl-dot.active {
+    background: #004d40;
+}
+
+.owl-theme .owl-dots .owl-dot span {
+    width: 8px;
+    height: 8px;
+    margin: 0px 1px !important;
+    background: #fff;
+    display: block;
+    -webkit-backface-visibility: visible;
+    transition: opacity .2s ease;
+    border-radius: 30px;
+}
+.owl-dots{
+    margin-bottom: 80px;
+}
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+    background: #fff;
+}
+
+/* From Uiverse.io by ZAKARIAE48CHELLE */
+.card {
+    position: relative;
+    width: 262px;
+    height: 312px;
+    background: linear-gradient(135deg, #cba041, #f0d78c) !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.card::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;   
+    z-index: 9;
+    background-color: #00000059;
+    visibility: hidden;
+    opacity: 0;
+    transform: scale(0.1); /* Start with a smaller scale */
+    transition: all 0.5s ease-in-out; /* Smooth transition effect */
+}
+.card:hover::before {
+    visibility: visible;
+    opacity: 1;
+    transform: scale(1); /* Resets to normal size */
+}
+
+
+.card::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    filter: blur(30px);
+}
+
+.card .first-team {
+    position: absolute;
+    inset: 6px;
+    background-image: url(../images/team/shubhsh.png);
+    z-index: 2;
+    background-repeat: no-repeat;
+    width: 96%;
+    height: 96%;
+    background-size: cover;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.card .second-team {
+    position: absolute;
+    inset: 6px;
+    background-image: url(../images/team/aisha_web.png);
+    z-index: 2;
+    background-repeat: no-repeat;
+    width: 96%;
+    height: 96%;
+    background-size: cover;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.card .third-team {
+    position: absolute;
+    inset: 6px;
+    background-image: url(../images/team/haider_croped.png);
+    z-index: 2;
+    background-repeat: no-repeat;
+    width: 96%;
+    height: 96%;
+    background-size: cover;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.card .four-team {
+    position: absolute;
+    inset: 6px;
+    background-image: url(../images/team/ashok_webs.png);
+    z-index: 2;
+    background-repeat: no-repeat;
+    width: 96%;
+    height: 96%;
+    background-size: cover;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.card .five-team {
+    position: absolute;
+    inset: 6px;
+    background-image: url(../images/team/t1.jpg);
+    z-index: 2;
+    background-repeat: no-repeat;
+    width: 96%;
+    height: 96%;
+    background-size: cover;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.card .six-team {
+    position: absolute;
+    inset: 6px;
+    background-image: url(../images/team/team-03.png);
+    z-index: 2;
+    background-repeat: no-repeat;
+    width: 96%;
+    height: 96%;
+    background-size: cover;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.card img {
+    position: absolute;
+    z-index: 3;
+    scale: 0.8;
+    opacity: 0.25;
+    transition: 0.5s;
+}
+
+.card:hover img {
+    scale: 0.5;
+    opacity: 0.9;
+    transform: translateY(-70px);
+}
+
+.card .content {
+    position: absolute;
+    z-index: 9;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transform: scale(0);
+    transition: 0.5s;
+   
+}
+.content::before{
+    background: transparent !important;
+}
+
+.card:hover .content {
+    transform: scale(1);
+    bottom: 25px;
+}
+
+.content .title {
+    position: relative;
+    color: #fff;
+    font-weight: 500;
+    line-height: 1em;
+    font-size: 15px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.content .title span {
+    font-weight: 300;
+    font-size: 10px;
+}
+
+.content .sci {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    margin-top: 0;
+}
+
+.sci li {
+    list-style: none;
+}
+
+.sci li .fa-brands {
+    width: 14px;
+}
+
+.sci li .fa-facebook {
+    width: 10px;
+}
+
+.sci li a {
+    position: relative;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.5);
+    background: rgb(0 0 0 / 39%);
+    fill: currentColor;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    transition: 0.5s;
+}
+
+.sci li a:hover {
+    fill: currentColor;
+    color: rgba(255, 255, 255, 1);
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.team-head{
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 36px;
+    color: #df4f4f;
+}
