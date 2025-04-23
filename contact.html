@@ -306,32 +306,68 @@
                            <span class="sub-title">Contact US</span>
                            <h2 class="sec-title">Have a construction on your mind?</h2>
                         </div>
-                        <form>
+                        <form action="https://api.web3forms.com/submit" method="POST">
+                           <input type="hidden" name="access_key" value="281d7b39-b157-4b7f-86ff-a803d4bf2eb5">   
                            <div class="row">
                               <div class="col-sm-6">
                                  <div class="form-input">
-                                    <input type="text" id="full" name="name" placeholder="Full Name *" required="">
+                                    <label for="first">First name</label>
+                                    <input type="text" id="first" name="first_name" placeholder="" required />
                                  </div>
                               </div>
                               <div class="col-sm-6">
                                  <div class="form-input">
-                                    <input type="email" id="emailThree" name="email" placeholder="Your Email*"
-                                       required="">
+                                    <label for="last">Last name</label>
+                                    <input type="text" id="last" name="last_name" placeholder="" required />
                                  </div>
                               </div>
                               <div class="col-sm-6">
                                  <div class="form-input">
-                                    <input type="tel" id="tel" name="tel" placeholder="Phone *" required="">
+                                    <label for="emailOne">Email address</label>
+                                    <input type="email" id="emailOne" name="email" placeholder="" required />
                                  </div>
                               </div>
+
                               <div class="col-sm-6">
                                  <div class="form-input">
-                                    <input type="text" id="subject" name="subject" placeholder="Subjects *" required="">
+                                    <label for="tel">Phone number</label>
+                                    <input type="tel" id="tel" name="phone-no" placeholder="" required />
+                                 </div>
+                              </div>
+
+
+                              <div class="col-sm-6">
+                                 <div class="form-input">
+                                    <label for="emailOne">Tittle</label>
+                                    <input type="text" id="emailOne" name="tittle" placeholder="" required />
+                                 </div>
+                              </div>
+
+                              <div class="col-sm-6">
+                                 <div class="form-input">
+                                    <label for="tel">Company</label>
+                                    <input type="text" id="tel" name="company" placeholder="" required />
+                                 </div>
+                              </div>
+                              <div class="col-sm-12">
+                                 <div class="form-input">
+                                    <label for="service">Select Service</label>
+                                    <select id="service" name="service" required>
+                                       <option value=""> Select a Service </option>
+                                       <option value="construction">Contracting</option>
+                                       <option value="renovation">Facility Management</option>
+                                       <option value="architecture">Man power Supplies</option>
+                                       <option value="interior">Real Estate</option>
+                                       <option value="Equipment">Rental Equipment</option>
+                                       <option value="Supplies">Genral Supplies</option>
+                                    </select>
                                  </div>
                               </div>
                               <div class="col-12">
                                  <div class="form-input">
-                                    <textarea id="message" name="message" placeholder="Write Your Message *"></textarea>
+                                    <label for="message">Enquiry</label>
+                                    <textarea id="message" name="message"
+                                       placeholder="Describe your project..."></textarea>
                                  </div>
                               </div>
                               <div class="submit-button">
@@ -343,7 +379,6 @@
                                              <i class="tji-double-arrow"></i>
                                           </span>
                                        </span>
-
                                        <span class="btn_text">
                                           <span>Submit now</span>
                                        </span>
