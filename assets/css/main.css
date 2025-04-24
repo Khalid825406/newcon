@@ -18411,7 +18411,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
 
 
 .dropdown-menu123:hover .dropdownmenumainabout123{
-  height: 155px;
+  height: 200px;
   visibility: visible;
   opacity: 1;
  
@@ -18480,5 +18480,5 @@ only screen and (min-width: 576px) and (max-width: 767px),
   justify-content: center;
 }
 .saudi-vision img{
-  width: 500px;
+  width: 400px;
 }
