@@ -18541,6 +18541,8 @@ only screen and (min-width: 576px) and (max-width: 767px),
 .contractdrop i{
   padding-right: 20px;
   font-size: 14px;
+  transform: rotate(273deg);
+  margin-bottom: 18px;
 }
 .contractdrop{
   display: flex;
@@ -18570,4 +18572,19 @@ only screen and (min-width: 576px) and (max-width: 767px),
   align-items: center;
   row-gap: 24px;
 margin: 80px 0px;
+}
+
+.mainmep {
+  margin: auto;
+  text-align: center;
+  width: 900px;
+}
+.mainmep h2{
+  font-size: 30px;
+  font-weight: 600;
+  color: #000;
+}
+.mainmep img {
+  width: 200px;
+  margin-top: 40px;
 }
