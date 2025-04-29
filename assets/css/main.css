@@ -18392,7 +18392,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
   visibility: visible;
   opacity: 0;
   transition: all 0.5s;
-  overflow: hidden;
+
 }
 
 .dropdownmenumain li{
@@ -18473,8 +18473,6 @@ only screen and (min-width: 576px) and (max-width: 767px),
   padding: 14px 0px !important;
   color: #000;
 }
-
-
 .saudi-vision{
   display: flex;
   justify-content: center;
@@ -18515,4 +18513,66 @@ only screen and (min-width: 576px) and (max-width: 767px),
   align-items: center;
   flex-wrap: wrap;
   row-gap: 30px;
+}
+
+
+
+
+.ContractingDropDown{
+  width: 200px;
+  height: 0px;
+  background-color: #fff;
+  position: absolute;
+  top: 0px;
+  flex-direction: column;
+  right: -200px;
+  visibility: hidden;
+  opacity: 0;
+  overflow: hidden;
+  transition: all 0.5s;
+}
+.ContractingDropDown li a{
+  padding: 14px 0px !important;
+}
+.ContractingDropDown li{
+  border-bottom: 1px solid #ccc;
+  width: 100%;
+}
+.contractdrop:hover .ContractingDropDown{
+  height: 91px !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+}
+.contractdrop i{
+  padding-right: 20px;
+  font-size: 14px;
+}
+.contractdrop{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;;
+}
+
+.sector123 {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 32%;
+  height: 546px;
+}
+
+.sector123 h3{
+  font-size: 28px;
+  margin-top: 15px;
+}
+
+.mainsector123{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  row-gap: 24px;
+margin: 80px 0px;
 }
