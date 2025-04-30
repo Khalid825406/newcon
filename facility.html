@@ -344,6 +344,97 @@
             </section>
             <!-- end: Breadcrumb Area  -->
          </main>
+
+         <div class="container">
+            <section class="facilities">
+               <div class="facilities-container">
+                   <div class="about-content">
+                       <h2>Facilities Management  </h2>
+                       <p>
+                        ABSO is a leading Facilities Management company in the Kingdom of Saudi Arabia, boasting a team of experts with extensive knowledge and specialization in various FM services.
+                     </p>
+                       <p>
+                        We recognize our staff as one of our most valuable assets, which is why we place significant emphasis on our employee selection process and employment procedures. This commitment ensures that our clients receive the highest standard of facilities management.
+                     </p>
+                       <p>
+                        With a specialized team of experts, we work closely and diligently with all stakeholders to ensure the well-being of all occupants and visitors. Simultaneously, we maintain and manage properties and assets in a secure, safe, and professional manner.
+                       </p>
+                   </div>
+               </div>
+           </section>
+         </div>
+
+      <div class="container">
+         <section class="services-section">
+            <div class="tabs">
+                <button class="tab active" data-tab="hard">Hard Services</button>
+                <button class="tab" data-tab="soft">Soft Services</button>
+                <button class="tab" data-tab="other">Other Services</button>
+            </div>
+        
+            <div class="tab-content" id="hard">
+                <div class="services-content">
+                    <div class="services-image">
+                     <img src="https://dummyimage.com/400x250/cccccc/000000&text=Hard+Services" alt="Hard Services" />
+                    </div>
+                    <ul class="services-list">
+                        <li>HVAC systems Maintenance</li>
+                        <li>Access control and CCTV systems maintenance and operation</li>
+                        <li>Civil Works maintenance</li>
+                        <li>Electrical Systems Maintenance</li>
+                        <li>Audio Visual system maintenance & Operation</li>
+                        <li>Fire Fighting and Fire Alarm Systems Maintenance</li>
+                        <li>Roads and Grounds maintenance</li>
+                        <li>Sewage and Waste Water Treatment Plants Maintenance</li>
+                        <li>Water treatment and Systems Maintenance</li>
+                        <li>Water Quality</li>
+                        <li>Irrigation networks Maintenance</li>
+                    </ul>
+                </div>
+            </div>
+        
+            <div class="tab-content" id="soft" style="display: none;">
+                <div class="services-content">
+                    <div class="services-image">
+                     <img src="https://dummyimage.com/400x250/cccccc/000000&text=Soft+Services" alt="Soft Services" />
+                    </div>
+                    <ul class="services-list">
+                        <li>House keeping</li>
+                        <li>Pest Control</li>
+                        <li>Janitorial Services</li>
+                        <li>Pools Maintenance</li>
+                        <li>Landscaping</li>
+                        <li>Waste Management</li>
+                    </ul>
+                </div>
+            </div>
+        
+            <div class="tab-content" id="other" style="display: none;">
+                <div class="services-content">
+                    <div class="services-image">
+                     <img src="https://dummyimage.com/400x250/cccccc/000000&text=Other+Services" alt="Other Services" />
+                    </div>
+                    <ul class="services-list">
+                        <li>Contract Management</li>
+                        <li>Project Management</li>
+                        <li>Property Management</li>
+                        <li>Facilities Management Consultancy</li>
+                        <li>Facilities Condition Assessment</li>
+                        <li>Renovation and Fit-out management</li>
+                        <li>Handover Management</li>
+                        <li>DLP/Warranty Management</li>
+                        <li>HSSE Services (Health, Safety, Security and Environment)</li>
+                        <li>Fire Fighting Services</li>
+                        <li>Helpdesk Services</li>
+                        <li>Life Cycle Management and costing</li>
+                        <li>Service Charge Management</li>
+                        <li>Energy Management</li>
+                        <li>IT (Information Technology)</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+      </div>
          <!-- start: Footer Area -->
          <footer class="tj-footer-area footer-1">
             <div class="footer-top-area">
@@ -478,7 +569,24 @@
    <script src="assets/js/venobox.min.js"></script>
    <script src="assets/js/meanmenu.js"></script>
    <script src="assets/js/main.js"></script>
-
+   <script>
+      const tabs = document.querySelectorAll(".tab");
+      const contents = document.querySelectorAll(".tab-content");
+  
+      tabs.forEach(tab => {
+          tab.addEventListener("click", () => {
+              // Remove active class from all tabs
+              tabs.forEach(t => t.classList.remove("active"));
+              // Hide all content
+              contents.forEach(c => c.style.display = "none");
+  
+              // Activate clicked tab and show its content
+              tab.classList.add("active");
+              document.getElementById(tab.dataset.tab).style.display = "block";
+          });
+      });
+  </script>
+  
    
 </body>
 

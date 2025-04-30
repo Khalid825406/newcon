@@ -18588,3 +18588,162 @@ margin: 80px 0px;
   width: 200px;
   margin-top: 40px;
 }
+
+
+.ceo-message {
+  padding: 60px 0;
+}
+
+.ceo-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.ceo-content {
+  flex: 1;
+  padding-left: 30px;
+}
+
+.ceo-content h2 {
+  font-size: 30px;
+  color: #333;
+  margin-bottom: 20px;
+  text-align: left;
+  font-weight: bold;
+}
+
+.ceo-content p {
+  font-size: 18px;
+  color: #555;
+  line-height: 1.8;
+  margin-bottom: 15px;
+}
+
+.ceo-content p strong {
+  font-weight: bold;
+  color: #000;
+}
+
+.ceo-signature {
+  font-size: 20px;
+  color: #333;
+  font-weight: bold;
+  margin-top: 40px;
+}
+
+.facilities{
+  padding: 60px 0px 0px 0px;
+}
+.facilities-container{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.about-abso {
+  padding: 60px 0px 0px 0px;
+}
+
+.about-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+
+.about-content {
+  width: 100%;
+}
+
+.about-content h2 {
+  font-size: 32px;
+  color: #333;
+  margin-bottom: 25px;
+  font-weight: bold;
+}
+
+.about-content p {
+  font-size: 18px;
+  color: #555;
+  line-height: 1.8;
+  margin-bottom: 15px;
+}
+
+.about-content p:last-child {
+  margin-bottom: 0;
+}
+
+
+
+
+.services-section {
+  padding: 80px 0px;
+}
+
+.tabs {
+  display: flex;
+  background:linear-gradient(135deg, #cba041, #f0d78c);
+}
+
+.tab {
+  padding: 14px 30px;
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.tab.active {
+  background-color: white;
+  color: #debd68;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.tab-content {
+  background-color: white;
+  padding: 30px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+  margin-top: -1px;
+}
+
+.services-content {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.services-image {
+  flex: 1;
+  min-width: 300px;
+  margin-right: 30px;
+}
+
+.services-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.services-list {
+  flex: 1;
+  min-width: 300px;
+  list-style: none;
+  padding: 0;
+}
+
+.services-list li {
+  font-size: 16px;
+  padding: 8px 0;
+  color: #333;
+  display: flex;
+  align-items: center;
+}
+
+.services-list li::before {
+  content: "✔";
+  color: #d5af55;
+  margin-right: 10px;
+}
