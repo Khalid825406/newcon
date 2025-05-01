@@ -11823,13 +11823,11 @@ only screen and (min-width: 576px) and (max-width: 767px),
 START: Theme Contact CSS
 ----------------------------------------*/
 .tj-contact-section {
-  padding-top: 100px;
-  padding-bottom: 60px;
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 
-.tj-contact-section.contact-inner {
-  background-color: var(--tj-color-common-white);
-}
+
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .tj-contact-section {
@@ -12312,9 +12310,12 @@ only screen and (min-width: 576px) and (max-width: 767px) {
     height: 120px;
   }
 }
-
+.contact-form-two{
+  padding: 20px;
+  background-color: #fff;
+}
 .contact-inner-wrapper {
-  background-color: var(--tj-color-theme-bg);
+  background-color: #fff;
   padding: 50px 40px 40px;
   max-width: 500px;
   width: 100%;
@@ -12330,7 +12331,7 @@ only screen and (min-width: 576px) and (max-width: 767px) {
 
 .contact-inner-wrapper .contact-box-one .contact-item::before {
   height: 35px;
-  top: -45px;
+  top: 0px;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -15139,7 +15140,7 @@ START: Theme Faq CSS
 
 .contact-box-one .contact-item .sub-title {
   display: block;
-  font-size: 14px;
+  font-size: 30px;
   line-height: 1;
   margin-bottom: 10px;
 }
@@ -18744,4 +18745,31 @@ margin: 80px 0px;
   content: "✔";
   color: #d5af55;
   margin-right: 10px;
+}
+.locat-icon{
+  width: 40px;
+  height: 40px;
+  line-height: 42px;
+  text-align: center;
+  background: #d5b057;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 50%;
+
+}
+.locat-flex{
+  display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.locat-flex p{
+  margin-bottom: 0px;
+  font-size: 20px;
+}
+.mainmap {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #fff;
+  height: 530px;
 }
