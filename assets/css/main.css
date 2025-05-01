@@ -18224,7 +18224,8 @@ only screen and (min-width: 576px) and (max-width: 767px),
   width: 100%;
   border-radius: 10px;
 }
-.sector h3{
+.sector a{
+  display: inline-block;
   font-size: 28px;
   margin-top: 15px;
 }
