@@ -17330,6 +17330,8 @@ START: Theme Breadcrumb CSS
   background-size: cover;
   position: relative;
   z-index: 2;
+  margin-top: 109px;
+  height: 300px;
 }
 
 .tj-breadcrumb-area::before {
@@ -17369,6 +17371,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
 .breadcrumb-content-area {
   position: relative;
   z-index: 2;
+  margin-top: -95px;
 }
 
 .breadcrumb-content-area .breadcrumb-heading .breadcrumb-title {
@@ -18245,6 +18248,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
   column-gap: 21px;
   align-items: center;
   row-gap: 24px;
+  margin-bottom: 80px;
 }
 
 
@@ -18255,7 +18259,6 @@ only screen and (min-width: 576px) and (max-width: 767px),
   padding: 30px;
   border-radius: 10px;
   margin-bottom: 80px;
-  margin-top: 180px;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
@@ -18773,4 +18776,40 @@ margin: 80px 0px;
   padding: 20px;
   background-color: #fff;
   height: 530px;
+}
+
+.career-section {
+  padding: 60px 20px;
+  max-width: 900px;
+  margin-top: 120px;
+  border-radius: 12px;
+  text-align: center;
+  margin-left: 80px;
+}
+
+.career-section h1 {
+  font-size: 2.5rem;
+  color: #df4f4f;
+  margin-bottom: 20px;
+}
+
+.career-section p {
+  font-size: 1.1rem;
+  color: #4a5568;
+  line-height: 1.7;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 600px) {
+  .career-section {
+    padding: 40px 15px;
+  }
+
+  .career-section h1 {
+    font-size: 2rem;
+  }
+
+  .career-section p {
+    font-size: 1rem;
+  }
 }
