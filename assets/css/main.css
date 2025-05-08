@@ -1456,6 +1456,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
   justify-content: space-between;
   background-color: #fff;
   padding: 0px 16px 0px 30px;
+  box-shadow: 2px 2px 5px #e9e9e9;
 }
 
 .header-wrapper .mean-push {
@@ -12625,7 +12626,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
 START: Theme Blog CSS
 ----------------------------------------*/
 .tj-blog-section {
-  padding-top: 120px;
+  padding-top: 40px;
   padding-bottom: 90px;
   overflow: hidden;
 }
@@ -18781,7 +18782,6 @@ margin: 80px 0px;
 .career-section {
   padding: 60px 20px;
   max-width: 900px;
-  margin-top: 120px;
   border-radius: 12px;
   text-align: center;
   margin-left: 80px;
@@ -18878,4 +18878,81 @@ margin: 80px 0px;
   width: 100%;
   display: flex;
   margin: auto;
+
+}
+
+.main-bgimage12 {
+  width: 100%;
+  height: 400px;
+  margin-top: 97px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  background: #6d6e73;
+}
+.main-bgimage12 img{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  margin: auto;
+  object-fit: contain;
+}
+
+.removcls{
+  position: absolute;
+  top: -7px;
+}
+.removcls img{
+  width: 724px;
+}
+
+.teambox {
+  width: 254px;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  overflow: hidden;
+  text-align: center;
+  padding: 20px 15px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+  text-align: center;
+}
+
+.teambox:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+.teambox .avatar {
+  width: 120px;
+  height: 120px;
+  margin: auto;
+}
+
+.teambox .avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.teambox h4 {
+  margin: 0;
+  font-size: 1.3rem;
+  color: #333;
+  font-weight: 600;
+}
+
+.teambox .role {
+  margin: 5px 0 0;
+  font-size: 0.95rem;
+  color: #777;
+}
+.teamflex{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin: 80px 0px;
 }
