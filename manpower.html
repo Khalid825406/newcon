@@ -591,7 +591,23 @@
    <script src="assets/js/meanmenu.js"></script>
    <script src="assets/js/main.js"></script>
 
-
+ <script>
+      const tabs = document.querySelectorAll(".tab");
+      const contents = document.querySelectorAll(".tab-content");
+  
+      tabs.forEach(tab => {
+          tab.addEventListener("click", () => {
+              // Remove active class from all tabs
+              tabs.forEach(t => t.classList.remove("active"));
+              // Hide all content
+              contents.forEach(c => c.style.display = "none");
+  
+              // Activate clicked tab and show its content
+              tab.classList.add("active");
+              document.getElementById(tab.dataset.tab).style.display = "block";
+          });
+      });
+  </script>
 </body>
 
 </html>
