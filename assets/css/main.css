@@ -19100,6 +19100,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
   background-color: transparent;
   z-index: 99;
 }
+
 .main-genral::before {
   content: '';
   position: absolute;
@@ -19112,6 +19113,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
   background-color: transparent;
   z-index: 99;
 }
+
 .stats-container {
   display: flex;
   gap: 100px;
@@ -19150,25 +19152,92 @@ only screen and (min-width: 576px) and (max-width: 767px),
   color: #777;
   margin-top: 0.3rem;
 }
+
 .main-mainn::before {
-    content: '';
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background-color: transparent;
-    z-index: 99;
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  z-index: 99;
 }
+
 .main-real::before {
-    content: '';
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background-color: transparent;
-    z-index: 99;
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  z-index: 99;
+}
+
+.intro {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.checkpoints {
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.checkpoints li {
+  list-style: disc;
+}
+
+.mainshdh {
+  background: #d4ad53;
+  color: white;
+  padding: 10px;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.columns {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+}
+
+.column {
+  flex: 1;
+  min-width: 280px;
+}
+
+.column h3 {
+  color: #cca142;
+  border-bottom: 1px solid #cca142;
+  padding-bottom: 5px;
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+.column ul {
+  padding-left: 20px;
+}
+
+.column li {
+  line-height: 1.6;
+}
+
+
+
+.subheading {
+  text-align: center;
+  font-size: 18px;
+  margin-bottom: 30px;
+  color: #555;
+}
+
+.content123 p {
+  font-size: 16px;
+  line-height: 1.8;
+  margin-bottom: 20px;
 }
