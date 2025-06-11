@@ -19293,7 +19293,26 @@ only screen and (min-width: 576px) and (max-width: 767px),
     align-items: center;
   }
 }
-.mnssss{
-      font-size: 20px;
-    color: #d56039;
+
+.mnssss {
+  font-size: 20px;
+  color: #d56039;
+}
+.newmanContractingDropDown {
+    width: 250px;
+    height: 0px;
+    background-color: #fff;
+    position: absolute;
+    top: 0px;
+    flex-direction: column;
+    right: -250px;
+    visibility: hidden;
+    opacity: 0;
+    overflow: hidden;
+    transition: all 0.5s;
+}
+.contractdrop:hover .newmanContractingDropDown {
+    height: 229px !important;
+    visibility: visible !important;
+    opacity: 1 !important;
 }
