@@ -19405,3 +19405,140 @@ only screen and (min-width: 576px) and (max-width: 767px),
       font-size: 24px;
       color: #d56039;
 }
+
+@media only screen and (max-width: 600px) {
+  .mainmenu ul {
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+  }
+.hamburger_menu .mean-container .mean-bar * {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    flex-direction: column !important;
+}
+  .dropdownmenumainabout123,
+  .dropdownmenumain,
+  .dropdownmenumainSector,
+  .ContractingDropDown {
+    position: relative !important;
+    top: unset !important;
+    left: unset !important;
+    background-color: #fff;
+    width: 100%;
+    max-height: 0;
+    opacity: 0;
+    overflow: hidden;
+    transition: all 0.3s ease;
+    visibility: hidden;
+    padding: 0;
+    z-index: 1;
+    
+  }
+
+  .dropdownmenumainabout123.active,
+  .dropdownmenumain.active,
+  .dropdownmenumainSector.active,
+  .ContractingDropDown.active {
+    height: auto;
+     max-height: none;
+    visibility: visible;
+    opacity: 1;
+    padding: 10px 15px;
+  }
+
+  .dropdownmenumainabout123 li a,
+  .dropdownmenumain li a,
+  .dropdownmenumainSector li a {
+    color: #000 !important;
+    padding: 10px 0;
+    display: block;
+  }
+
+  .dropdown-toggle-mobile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+  .contractdrop{
+    display: none !important;
+  }
+  .newdstf{
+    display: block !important;
+  }
+  .mean-container .mean-nav ul li li a{
+    width: 100% !important;
+  }
+  .hamburger_menu .mean-nav ul li a.mean-expand i {
+    font-size: 6px;
+    display: none;
+}
+.contractdrop i{
+  display: none !important;
+}
+.mainmep{
+  width: 100%;
+}
+.ceo-content {
+    flex: 1;
+    padding-left: 0px;
+}
+.about-container {
+  padding: 0px 0px;
+}
+.teambox{
+  width: 170px;
+}
+.teambox h4{
+  font-size: 18px;
+}
+.mainsector123{
+  flex-direction: column;
+}
+.sector123{
+  width: 100%;
+}
+.mainmep p{
+  padding: 0px 24px;
+}
+.main-bgimage{
+  margin-top: 58px;
+}
+.mainsectre h1{
+  font-size: 40px;
+}
+.removcls{
+  top: 80px;
+}
+.tab{
+  font-size: 14px;
+}
+.about-content h2{
+  font-size: 30px;
+}
+.main-bgimage{
+  height: 224px;
+}
+.rentalwwflex{
+  flex-direction: column;
+}
+.rentalwwflexnew{
+  flex-direction: column;
+}
+.rentalleft{
+  width: 100%;
+}
+.rentalright{
+  width: 100%;
+}
+}
+.contractdrop i{
+  display: block;
+}
+.contractdrop{
+    display: block;
+  }
+  .newdstf{
+    display: none;
+  }
